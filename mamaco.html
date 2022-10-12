@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+ <title>Show do Meninão</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;
+color: white">
+<h1 style="text-align: center">
+SHOW DO MENINÃO</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fr6HuwXHPtHBB4xAM-Y7YB4z2Qf7mFE59M55bhKmf1lz9zBiC0g8epc&s=10" 
+style=
+"height: 200px;
+width: 200px;
+padding-right: 70px;
+padding-left: 70px;
+padding-up: 50px;
+padding-down: 50px">
+<br>
+<p style="font-style: italic">
+Bem vindo ao Show do Meninão!! Aqui seu conhecimento será avaliado e você realmente vai poder saber o quanto você sabe!
+</p><br>
+<p style="padding-left: 20px">Questão 1<br>
+<br>
+Qual é a capital do Canadá?<br>
+<br>
+<button onclick="OneA()" style="height: 20px;
+width: 20px"></button>A) Sidney
+<br>
+<button onClick="OneB()"
+style="height: 20px;
+width: 20px" ></button>B) Ottawa<br>
+<button onClick="OneC()"
+style="height: 20px;
+width: 20px" ></button>C) Washington<br>
+<button onClick="OneD()"
+style="height: 20px;
+width: 20px" ></button>D) Taiwan
+</p><br>
+<div id="1B"></div>
+ <script>
+ 
+ function OneWrong()
+ {
+ var resposta = document.getElementById("1B");
+var text = "Wrong!";
+resposta.innerHTML = text
+ }
+ 
+ function OneA()
+ {
+ OneWrong()
+ }
+ 
+ function OneB()
+ { let resposta = document.getElementById("1B");
+let text1 = "Correct!";
+resposta.innerHTML = text1
+}
+
+function OneC()
+ {
+ OneWrong()
+ }
+ 
+ function OneD()
+ {
+ OneWrong()
+ }
+ 
+ </script>
+</body>
+</html>
